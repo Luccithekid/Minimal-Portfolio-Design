@@ -1,0 +1,96 @@
+:root {
+    --teal: #00bfa5;
+    --black: #000;
+    --white: #fff;
+    --bg-light: #fefaf6;
+    --font-main: 'Helvetica Neue', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-main);
+    background-color: var(--bg-light);
+    color: var(--black);
+  }
+  
+  .hero {
+    background:  no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 255, 115, 0.6);
+    padding: 2rem;
+    color: var(--white);
+    width: 100000px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  
+  .hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  
+  .btn {
+    background-color: var(--teal);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .about, .contact {
+    background-color: var(--bg-light);
+  }
+  
+  .about .text, .contact .text {
+    flex: 1 1 300px;
+    max-width: 500px;
+  }
+  
+  .about .image img, .contact .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .teal {
+    color: var(--teal);
+  }
+  
+  .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
